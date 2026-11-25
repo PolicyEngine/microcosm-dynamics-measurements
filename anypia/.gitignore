@@ -1,0 +1,6 @@
+downloads/
+vendor/
+work/
+__pycache__/
+.pytest_cache/
+.hypothesis/
