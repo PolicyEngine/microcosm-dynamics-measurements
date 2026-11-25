@@ -1,0 +1,50 @@
+Reason: Replace MFC-only string formatting required to link SSA's stock DETAILS report; no calculation changes.
+--- a/anypia32/FormatString.cpp
++++ b/anypia32/FormatString.cpp
+@@ -2,10 +2,8 @@
+ 
+ // $Id: FormatString.cpp 1.5.1.1 2012/03/08 06:55:13EST 277133 Development 277133(2012/03/08 06:55:49EST) $
+ 
+-//DOM-IGNORE-BEGIN
+-#include "stdafx.h"
+-//DOM-IGNORE-END
+ #include "FormatString.h"
++#include "ResourceStrings.h"
+ 
+ using namespace std;
+ 
+@@ -21,9 +19,12 @@
+ void AfxFormatString1(std::string& result, unsigned int rsc,
+   const std::string& filler)
+ {
+-   CString cstring;
+-   AfxFormatString1(cstring, rsc, CString(filler.c_str()));
+-   result = string((const char *)cstring);
++   result = ssaResourceString(rsc);
++   size_t position = 0;
++   while ((position = result.find("%1", position)) != string::npos) {
++      result.replace(position, 2, filler);
++      position += filler.size();
++   }
+ }
+ 
+ /// <summary>Loads the specified string resource and substitutes for the
+@@ -41,8 +42,14 @@
+ void AfxFormatString2(std::string& result, unsigned int rsc,
+   const std::string& filler1, const std::string& filler2)
+ {
+-   CString cstring;
+-   AfxFormatString2(cstring, rsc, CString(filler1.c_str()),
+-      CString(filler2.c_str()));
+-   result = string((const char *)cstring);
++   result = ssaResourceString(rsc);
++   size_t position = 0;
++   while ((position = result.find('%', position)) != string::npos) {
++      if (position + 1 == result.size()) break;
++      const char code = result[position + 1];
++      if (code != '1' && code != '2') { ++position; continue; }
++      const string& filler = (code == '1') ? filler1 : filler2;
++      result.replace(position, 2, filler);
++      position += filler.size();
++   }
+ }

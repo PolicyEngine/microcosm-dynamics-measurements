@@ -1,0 +1,310 @@
+[
+  {
+    "number": 1,
+    "pdf_page": 65,
+    "computation_year": 2026,
+    "description": "Shows effect of assumed future inflation on the benefit. Compare to sample case 2, where there is no future\ninflation.\n\nDescription\n    \uf0b7   Male old-age benefit, January 2032\n    \uf0b7   born January 15, 1965\n    \uf0b7   retired at age 67 (full retirement age)\n    \uf0b7   maximum earnings 1986-2031\n    \uf0b7   alternative II assumptions",
+    "expected": {
+      "PIA": "4968.50",
+      "MBA": "4968.00"
+    }
+  },
+  {
+    "number": 2,
+    "pdf_page": 65,
+    "computation_year": 2026,
+    "description": "Shows effect of no assumed future inflation on the benefit. Compare to sample case 1, where there is\nassumed future inflation.\n\nDescription\n    \uf0b7   Male old-age benefit, January 2032\n    \uf0b7   born January 15, 1965\n    \uf0b7   retired at age 67 (full retirement age)\n    \uf0b7   maximum earnings 1986-2031\n    \uf0b7   no benefit increases after December 2025\n    \uf0b7   no average wage change after 2024.",
+    "expected": {
+      "PIA": "4254.20",
+      "MBA": "4254.00"
+    }
+  },
+  {
+    "number": 3,
+    "pdf_page": 65,
+    "computation_year": 2026,
+    "description": "Shows special minimum PIA.\n\nDescription\n    \uf0b7   Male old-age benefit, June 1982\n    \uf0b7   born January 2, 1920\n    \uf0b7   retired at age 62 and 5 months\n\f\n    \uf0b7   low earnings 1945-82",
+    "expected": {
+      "PIA": "345.10",
+      "MBA": "285.00"
+    }
+  },
+  {
+    "number": 4,
+    "pdf_page": 66,
+    "computation_year": 2026,
+    "description": "Shows entered earnings, non-covered pension offset in 2022, retirement at exact age 62. Compare to sample\ncase 25, where the non-covered pension entitlement date is after the Social Security benefit entitlement\ndate. Also compare to sample case 30, which computes the benefit as of January 2024, when the non-\ncovered pension offset is no longer effective.\n\nDescription\n    \uf0b7   Male old-age benefit, September 2022\n    \uf0b7   born September 2, 1960\n    \uf0b7   retired at exact age 62\n    \uf0b7   earnings of $2000 in 1981-90, $4000 in 1991-2000, $6000 in 2001-10, $8000 in 2011-20\n    \uf0b7   monthly non-covered pension of $1500 starting September 2022",
+    "expected": {
+      "PIA": "290.00",
+      "MBA": "203.00"
+    }
+  },
+  {
+    "number": 5,
+    "pdf_page": 66,
+    "computation_year": 2026,
+    "description": "Shows survivor calculation, re-indexed widow(er) guarantee PIA.\n\nDescription\n    \uf0b7   Aged widow benefit, September 2030\n    \uf0b7   worker born September 10, 1965\n    \uf0b7   died September 2017\n    \uf0b7   widow born September 10, 1970\n    \uf0b7   widow benefit started at age 60\n    \uf0b7   earnings of $1000 in 1986-90, $2000 in 1991-2000, $3000 in 2001-2010, $4000 in 2011-17\n    \uf0b7   alternative II assumptions",
+    "expected": {
+      "regular PIA": "441.70",
+      "re-indexed widow(er) guarantee PIA": "477.20",
+      "MBA": "341.00"
+    }
+  },
+  {
+    "number": 6,
+    "pdf_page": 66,
+    "computation_year": 2026,
+    "description": "Shows full retirement age 67, previous disability onset, disability 1-for-5 dropout rule carried into retirement.\n\nDescription\n    \uf0b7   Male old-age benefit, January 2037\n    \uf0b7   born January 5, 1970 (retired at age 67)\n\f\n    \uf0b7   earnings 1986-95: $2412, $2412, $7132, $15,050, $16,125, $17,200, $18,275, $19,350, $19,350,\n        $20,425\n    \uf0b7   previous disability onset December 15, 1995\n    \uf0b7   previous disability entitlement June 1996\n    \uf0b7   previous disability cessation December 2036\n    \uf0b7   no benefit increases after December 2025\n    \uf0b7   no average wage change after 2024",
+    "expected": {
+      "PIA": "1672.10",
+      "MBA": "1672.00"
+    }
+  },
+  {
+    "number": 7,
+    "pdf_page": 67,
+    "computation_year": 2026,
+    "description": "Shows special minimum PIA.\n\nDescription\n    \uf0b7   Male disability benefit, January 1978\n    \uf0b7   born January 15, 1918 (retired at age 60)\n    \uf0b7   earnings of $1000 in 1941-54, $1560 in 1955-65, $2000 in 1966-72\n    \uf0b7   disability onset June 15, 1977\n    \uf0b7   first month of waiting period July 1977",
+    "expected": {
+      "PIA": "180.00",
+      "MBA": "180.00"
+    }
+  },
+  {
+    "number": 8,
+    "pdf_page": 67,
+    "computation_year": 2026,
+    "description": "Shows retirement age 67, benefit greater than $10,000.\n\nDescription\n    \uf0b7   Male old-age benefit, January 2057\n    \uf0b7   born January 15, 1990 (retired at age 67)\n    \uf0b7   maximum earnings 2012-2056\n    \uf0b7   alternative II assumptions",
+    "expected": {
+      "PIA": "12782.50",
+      "MBA": "12782.00"
+    }
+  },
+  {
+    "number": 9,
+    "pdf_page": 67,
+    "computation_year": 2026,
+    "description": "Shows re-indexed widow(er) guarantee PIA for disabled widow.\n\nDescription\n    \uf0b7   Disabled widow benefit, October 2014\n    \uf0b7   worker born September 10, 1955\n    \uf0b7   died September 2005\n\f\n    \uf0b7   widow born September 10, 1959\n    \uf0b7   widow disabled April 10, 2014\n    \uf0b7   disabled widow benefit started at age 55 and 1 month\n    \uf0b7   earnings of $1000 in 1976-80, $2000 in 1981-90, $3000 in 1991-2000, $4,000 in 2001-05",
+    "expected": {
+      "regular PIA": "381.50",
+      "re-indexed widow(er) guarantee PIA": "396.90",
+      "MBA": "283.00"
+    }
+  },
+  {
+    "number": 10,
+    "pdf_page": 68,
+    "computation_year": 2026,
+    "description": "Shows user-selected assumptions, totalization benefit.\n\nDescription\n    \uf0b7   Male old-age benefit, February 2036\n    \uf0b7   born January 29, 1974 (retired at age 62 and 1 month)\n    \uf0b7   maximum earnings 2003-09\n    \uf0b7   user-specified benefit increases after December 2025\n    \uf0b7   user-specified average wage increases after 2024\n    \uf0b7   totalization benefit",
+    "expected": {
+      "PIA": "1562.90",
+      "MBA": "1100.00"
+    }
+  },
+  {
+    "number": 11,
+    "pdf_page": 68,
+    "computation_year": 2026,
+    "description": "Shows 1950 old-start PIA, annual earnings before 1951.\n\nDescription\n    \uf0b7   Male old-age benefit, January 1952\n    \uf0b7   born January 15, 1887 (retired at age 65)\n    \uf0b7   maximum earnings 1937-51",
+    "expected": {
+      "PIA": "68.50",
+      "MBA": "68.50"
+    }
+  },
+  {
+    "number": 12,
+    "pdf_page": 68,
+    "computation_year": 2026,
+    "description": "Shows use of earnings after disability freeze ends at full retirement age, benefit after entitlement.\n\nDescription\n    \uf0b7   Male old-age benefit, January 1989\n    \uf0b7   born March 22, 1922\n    \uf0b7   retired at age 65 in March 1987\n    \uf0b7   benefit at age 66 and 10 months\n    \uf0b7   maximum earnings 1945-54, 1987-88\n\f\n    \uf0b7    previous disability onset April 1, 1954\n    \uf0b7    previous disability entitlement January 1960\n    \uf0b7    previous disability cessation March 1987",
+    "expected": {
+      "PIA": "1621.70",
+      "MBA": "1621.00"
+    }
+  },
+  {
+    "number": 13,
+    "pdf_page": 69,
+    "computation_year": 2026,
+    "description": "Shows 1990 old-start PIA, summed earnings before 1951.\n\nDescription\n    \uf0b7    Aged widow benefit, June 1992\n    \uf0b7    worker born August 23, 1927\n    \uf0b7    died March 1954\n    \uf0b7    widow born January 5, 1929\n    \uf0b7    earnings 1950-54 (see stored case)",
+    "expected": {
+      "PIA": "484.60",
+      "MBA": "440.00"
+    }
+  },
+  {
+    "number": 14,
+    "pdf_page": 69,
+    "computation_year": 2026,
+    "description": "Shows special minimum PIA in disability case, using pre-1951 earnings, no dollar-down rounding.\n\nDescription\n    \uf0b7    Male disability benefit, January 1982\n    \uf0b7    born October 29, 1924\n    \uf0b7    earnings 1950-54, 1964-82 (see stored case)\n    \uf0b7    disability onset March 15, 1981\n    \uf0b7    first month of waiting period April 1981\n    \uf0b7    originally entitled September 1981",
+    "expected": {
+      "PIA": "321.40",
+      "MBA": "321.40"
+    }
+  },
+  {
+    "number": 15,
+    "pdf_page": 69,
+    "computation_year": 2026,
+    "description": "Shows prior period of disability in disability case.\n\nDescription\n    \uf0b7    Male disability benefit, December 1994\n    \uf0b7    born July 15, 1931\n    \uf0b7    earnings from 1950 to 1982 (see stored case)\n    \uf0b7    disability onset December 27, 1982\n    \uf0b7    first month of waiting period January 1983\n\f\n    \uf0b7   originally entitled December 1983\n    \uf0b7   prior disability onset May 5, 1976\n    \uf0b7   first month of waiting period in prior disability June 1976\n    \uf0b7   prior disability cessation December 1978",
+    "expected": {
+      "PIA": "599.70",
+      "MBA": "599.00"
+    }
+  },
+  {
+    "number": 16,
+    "pdf_page": 70,
+    "computation_year": 2026,
+    "description": "Shows prior closed period of disability in old-age case.\n\nDescription\n    \uf0b7   Male old-age benefit, December 1994\n    \uf0b7   born February 14, 1932\n    \uf0b7   retired at age 62 and 1 month\n    \uf0b7   benefit at age 62 and 10 months\n    \uf0b7   earnings from 1950 to 1993 (see stored case)\n    \uf0b7   prior disability onset November 15, 1969\n    \uf0b7   prior disability entitlement June 1970\n    \uf0b7   prior disability cessation February 1972",
+    "expected": {
+      "PIA": "928.90",
+      "MBA": "748.00"
+    }
+  },
+  {
+    "number": 17,
+    "pdf_page": 70,
+    "computation_year": 2026,
+    "description": "Shows re-indexed widow(er) guarantee PIA, disability cessation at death, entitlement more than 12 months\nafter death and after age 62.\n\nDescription\n    \uf0b7   Aged widow benefit, May 1996\n    \uf0b7   worker born September 23, 1932\n    \uf0b7   prior disability onset July 22, 1991\n    \uf0b7   prior disability cessation August 1994\n    \uf0b7   died September 15, 1994\n    \uf0b7   widow born May 6, 1936\n    \uf0b7   earnings 1952-92 (see stored case)",
+    "expected": {
+      "regular PIA": "688.00",
+      "re-indexed widow(er) guarantee PIA": "714.70",
+      "MBA": "511.00"
+    }
+  },
+  {
+    "number": 18,
+    "pdf_page": 70,
+    "computation_year": 2026,
+    "description": "Shows projected earnings, 70 years of earnings, computation of benefit after initial entitlement.\n\f\nDescription\n    \uf0b7   Male old-age benefit, entitlement in March 2032\n    \uf0b7   benefit computed in April 2050\n    \uf0b7   born March 10, 1962\n    \uf0b7   retired at age 70 and 0 months\n    \uf0b7   benefit computed at age 88 and 1 month\n    \uf0b7   earnings: $50,000 in 1996, projected backward by 1% constant decrease to 1980, projected forward\n        with no increase to 2049\n    \uf0b7   no benefit increases after December 2025\n    \uf0b7   no average wage change after 2024",
+    "expected": {
+      "PIA": "3478.50",
+      "MBA": "4313.00"
+    }
+  },
+  {
+    "number": 19,
+    "pdf_page": 71,
+    "computation_year": 2026,
+    "description": "Shows re-indexed widow(er) guarantee PIA where worker died in month of attainment of age 62, before day\nof attainment.\n\nDescription\n    \uf0b7   Aged widow benefit, October 2000\n    \uf0b7   worker born November 8, 1934\n    \uf0b7   prior disability onset January 15, 1981\n    \uf0b7   prior disability cessation November 1996\n    \uf0b7   died November 3, 1996\n    \uf0b7   widow born October 15, 1940\n    \uf0b7   maximum earnings, 1970-80",
+    "expected": {
+      "regular PIA": "790.30",
+      "re-indexed widow(er) guarantee PIA": "880.40",
+      "MBA": "629.00"
+    }
+  },
+  {
+    "number": 20,
+    "pdf_page": 71,
+    "computation_year": 2026,
+    "description": "Shows years-of-coverage savings clause for non-covered pension offset.\n\nDescription\n    \uf0b7   Male old-age benefit, July 2014\n    \uf0b7   born June 22, 1952\n    \uf0b7   earnings 1966-79, 2002-2010 (see stored case)\n    \uf0b7   monthly noncovered pension of $1500 starting June 2010",
+    "expected": {
+      "PIA": "1235.80",
+      "MBA": "931.00"
+    }
+  },
+  {
+    "number": 21,
+    "pdf_page": 72,
+    "computation_year": 2026,
+    "description": "Shows use of 4 projection parameters.\n\nDescription\n    \uf0b7   Male disability benefit, July 2033\n    \uf0b7   born January 15, 1988\n    \uf0b7   disability onset January 10, 2033\n    \uf0b7   earnings: $60,000 in 2018, projected backward by 6% constant decrease to 2008, projected forward\n        by 5% constant increase to 2032\n    \uf0b7   user-specified benefit increases after December 2025: 3%\n    \uf0b7   user-specified average wage increases after 2024: 4%",
+    "expected": {
+      "PIA": "3826.10",
+      "MBA": "3826.00"
+    }
+  },
+  {
+    "number": 22,
+    "pdf_page": 72,
+    "computation_year": 2026,
+    "description": "Shows use of childcare years.\n\nDescription\n    \uf0b7   Female disability benefit, January 1999\n    \uf0b7   born January 15, 1966\n    \uf0b7   disability onset July 15, 1998\n    \uf0b7   maximum earnings 1987-93\n    \uf0b7   childcare years 1980-83",
+    "expected": {
+      "regular PIA": "1468.00",
+      "childcare dropout year PIA": "1567.00",
+      "MBA": "1567.00"
+    }
+  },
+  {
+    "number": 23,
+    "pdf_page": 72,
+    "computation_year": 2026,
+    "description": "Shows disallowance of delayed retirement credits if not fully insured.\n\nDescription\n    \uf0b7   Male old-age benefit, January 2001\n    \uf0b7   born January 15, 1930\n    \uf0b7   retired at age 71\n    \uf0b7   Earnings of $5000 per year for 1991-2000",
+    "expected": {
+      "PIA": "134.20",
+      "MBA": "134.00"
+    }
+  },
+  {
+    "number": 24,
+    "pdf_page": 73,
+    "computation_year": 2026,
+    "description": "Shows applicability of delayed retirement credits if eligible for totalization benefits.\n\nDescription\n    \uf0b7   Male old-age benefit, January 2002\n    \uf0b7   born January 15, 1935\n    \uf0b7   retired at age 67\n    \uf0b7   Maximum earnings 1990-92\n    \uf0b7   totalization benefit",
+    "expected": {
+      "PIA": "126.30",
+      "MBA": "141.00"
+    }
+  },
+  {
+    "number": 25,
+    "pdf_page": 73,
+    "computation_year": 2026,
+    "description": "Shows entered earnings, non-applicability of non-covered pension offset, retirement at exact age 62.\nCompare to sample case 4, where the non-covered pension entitlement date is at or before the Social\nSecurity benefit entitlement date. (The benefit in this case would be reduced beginning in October\n2022.) Also compare to sample case 30, which computes the benefit as of January 2024, when the non-\ncovered pension offset is no longer effective.\n\nDescription\n    \uf0b7   Male old-age benefit, September 2022\n    \uf0b7   born September 2, 1960\n    \uf0b7   retired at exact age 62\n    \uf0b7   earnings of $2000 in 1981-90, $4000 in 1991-2000, $6000 in 2001-10, $8000 in 2011-20\n    \uf0b7   monthly non-covered pension of $1500 starting October 2022",
+    "expected": {
+      "PIA": "652.50",
+      "MBA": "456.00"
+    }
+  },
+  {
+    "number": 26,
+    "pdf_page": 73,
+    "computation_year": 2026,
+    "description": "Shows the effect of the MFB on a disabled widow and two child survivor beneficiaries.\n\nDescription\n    \uf0b7   Survivor benefit, October 2001\n    \uf0b7   worker born January 15, 1945\n    \uf0b7   died March 2000\n    \uf0b7   widow born January 15, 1950\n    \uf0b7   widow disabled January 5, 2001\n    \uf0b7   disabled widow benefit started October 2001\n    \uf0b7   first child born February 15, 1990\n    \uf0b7   child benefit started October 2001\n    \uf0b7   second child born February 15, 1990\n\f\n    \uf0b7   child benefit started October 2001\n    \uf0b7   maximum earnings 1970-1998",
+    "expected": {
+      "PIA": "1672.10",
+      "re-indexed widow(er) guarantee PIA": "1706.10",
+      "MFB": "2926.20",
+      "disabled widow MBA": "846.00",
+      "child MBA (two)": "870.00"
+    }
+  },
+  {
+    "number": 27,
+    "pdf_page": 74,
+    "computation_year": 2026,
+    "description": "Shows the new-start method for a disability benefit with earnings after entitlement. This is the prior disability\nPIA for the disability guarantee computation in sample case 28.\n\nDescription\n    \uf0b7   Female disability benefit, March 1988\n    \uf0b7   worker born January 15, 1942\n    \uf0b7   disability onset January 15, 1967\n    \uf0b7   first month of waiting period July 1972\n    \uf0b7   earnings of $500 1965-69, $1000 1970-79, $2000 1980-84, $3000 1985-87",
+    "expected": {
+      "PIA": "440.30",
+      "MBA": "440.00"
+    }
+  },
+  {
+    "number": 28,
+    "pdf_page": 74,
+    "computation_year": 2026,
+    "description": "Shows the disability guarantee method for a disability benefit with a prior period of disability. See sample\ncase 27 for the computation of the previous disability cessation PIA.\n\nDescription\n    \uf0b7   Female disability benefit, January 1990\n    \uf0b7   worker born January 15, 1942\n    \uf0b7   disability onset January 1, 1990\n    \uf0b7   previous disability onset January 15, 1967\n    \uf0b7   previous disability entitlement January 1973\n    \uf0b7   previous disability cessation April, 1988\n    \uf0b7   previous disability cessation PIA $440.30\n    \uf0b7   previous disability cessation MFB $673.20\n    \uf0b7   earnings of $500 1965-69, $1000 1970-79, $2000 1980-84, $3000 1985-89",
+    "expected": {
+      "PIA": "440.30",
+      "MBA": "440.00"
+    }
+  },
+  {
+    "number": 29,
+    "pdf_page": 74,
+    "computation_year": 2026,
+    "description": "Shows the wage-indexed non-freeze method for a disability benefit. Note that the non-freeze computation\nuses 2004, the year of the start of the waiting period, for the year of eligibility, and the worker's earnings in\n2003 and 2004, which are excluded from the normal wage-indexed formula computation, are used to\ncompute the non-freeze AIME.\n\nDescription\n    \uf0b7   Male disability benefit, January 2005\n    \uf0b7   worker born January 15, 1980\n    \uf0b7   disability onset July 1, 1999\n    \uf0b7   waiting period starts in August, 2004\n    \uf0b7   low earnings 1998-2004",
+    "expected": {
+      "PIA": "794.00",
+      "MBA": "794.00"
+    }
+  },
+  {
+    "number": 30,
+    "pdf_page": 75,
+    "computation_year": 2026,
+    "description": "Shows non-covered pension offset ending as of January 2024. Compare to sample case 4, which computes\nthe benefit while the non-covered pension offset is still effective in 2022.\n\nDescription\n    \uf0b7   Male old-age benefit, September 2022\n    \uf0b7   born September 2, 1960\n    \uf0b7   retired at exact age 62\n    \uf0b7   benefit computed as of January 2024\n    \uf0b7   earnings of $2000 in 1981-90, $4000 in 1991-2000, $6000 in 2001-10, $8000 in 2011-20\n    \uf0b7   monthly non-covered pension of $1500 starting September 2022",
+    "expected": {
+      "PIA": "731.80",
+      "MBA": "512.00"
+    }
+  }
+]
